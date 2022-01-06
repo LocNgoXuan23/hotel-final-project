@@ -216,7 +216,7 @@ const Wrapper = styled.section`
   place-items: center;
   .img-container {
     display: block;
-    width: 360px;
+    width: 100%;
     background-color: var(--clr-primary-5);
     padding: 30px;
     border-radius: 5px;
@@ -256,7 +256,10 @@ const Wrapper = styled.section`
       font-size: 1rem;
     }
     .img-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
       display: block;
+      width: 360px;
     }
     .main-img {
       width: 100%;
