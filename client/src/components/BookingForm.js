@@ -72,6 +72,9 @@ const BookingForm = () => {
   return <>
     <ImageBackgoundWrapper style={{
       backgroundImage: `url("${backgroundImages[mainBackgroundImage]}")`,
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
     }}>
       <Wrapper className="section-center">
         <article className="content">
@@ -212,11 +215,12 @@ const Wrapper = styled.section`
   display: grid;
   place-items: center;
   .img-container {
-    display: none;
+    display: block;
     width: 360px;
     background-color: var(--clr-primary-5);
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 30px;
   }
   
   .form-alert.warring {
