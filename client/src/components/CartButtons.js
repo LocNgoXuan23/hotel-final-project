@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaShoppingCart, FaUserAlt } from 'react-icons/fa'
+import { FaUserAlt } from 'react-icons/fa'
 import {  RiLogoutBoxRFill, RiLockPasswordFill, RiLoginBoxFill, RiRegisteredFill, RiAdminFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
